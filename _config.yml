@@ -23,10 +23,10 @@ plugins:
 # Site settings
 url: 'https://mydomain.com'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'Hester'
+description: 'heihei'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fassets.openstudy.com%2Fupdates%2Fattachments%2F55299d4ae4b05b03ec899d31-geerky42-1428792637529-pokemon_132___ditto_by_bellygird362gqa.png&refer=http%3A%2F%2Fassets.openstudy.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1621662130&t=f3d28ec2c7c3f444dcecde5ba007fc45"
 
 # Pagination
 paginate: 5
@@ -70,3 +70,5 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+
+mardown: kramdown
