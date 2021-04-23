@@ -1,7 +1,8 @@
 ---
-title: 普通小居居
+title: Hey,
 feature_image: "https://picsum.photos/1300/400?image=989"
 feature_text: |
-  ## Hello world
+  ## Xu Han
+  Technical Artist , Quick Learner
 ---
-普通小居居
+Started as a developer, with work experiences in both animation and game industry, my passion is found at art creation with technical mindset.
