@@ -1,6 +1,6 @@
 ---
-title: Hey,
-feature_image: "https://picsum.photos/1300/400?image=989"
+title: Portfolio,
+feature_image: "_images/Xu.png"
 feature_text: |
   ## Xu Han
   Technical Artist , Rendering Engineer, Quick Learner
@@ -18,6 +18,17 @@ Take advantages of PBR, change the floor appearances from dry to wet, to water p
 **References:**
 [https://seblagarde.wordpress.com/2012/12/10/observe-rainy-world/](https://seblagarde.wordpress.com/2012/12/10/observe-rainy-world/)
 ### Scene Transition Effect
+{% include video.html id="SwvBseshn8g" title="Scene Transition - Enter" %}
+{% include video.html id="rTkVtJ5F22M" title="Scene Transition - Leave" %}
+
+Scene Transition Effect is a complex effect composed of 4 parts:
+
+ 1. Outline shader(Inverted Hull method   based on depth and normal buffer) 
+ 2. Outline on occlusion
+ 3. Power Shield Expansion 
+ 4. Post-Processing Effect
+ 5. Render feature 
+
 ### Fake Interior Shader
 ### Model Variants Shader
 ### Dissolve and Dither
