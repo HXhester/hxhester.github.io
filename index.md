@@ -93,11 +93,32 @@ Batch create materials from textures, batch create prefabs from models.
 
 Fixi in Playland is an animated series encouraging viewers from ages 5 to 8 to gain interests in technology. I participated in Season 1, 2 and Christmas special.
 
-### Preview + Production platform (Core)
+{% include video.html id="maA_-J6DKJw" title="Fixi in Playland S2 Trailer" %}
 
+**Watch Fixi at Viaplay**: https://viaplay.se/barn/fixi-i-playland
+
+### Preview + Production platform
+Preview + Production platform is used on set. With this platform, the directors and the actors are able to see the real-time rendering results.
+
+{% include figure.html image="https://hxhester.github.io/assets/VR-Platform.png" caption="Preview + Production platform" %}
+
+I was responsible for
+ - Data streaming of skeleton data from Motive(mocap software), facial expression data from Face Streamer
+ - Handling networking(Photon plugin) for multi-actor.
+ - VR solution: headset + eye tracking + lower-face tracking
+
+{% include figure.html image="https://hxhester.github.io/assets/VR-supported.png" caption="VR solution" %}
+ 
 ### Face Streamer
+Face Streamer is an ios app for recording, streaming and uploading facial expression data. Developed using Unity and ARkit.
+
+I was the Product Owner and responsible for designing and developing the app.
+
+ - Adapt to customized blendshapes and eye-tracking solution
+ - Handle file storage and data streaming to the Preview+Production platform
+
 ### Editor Tools
-Lightmap Switcher, facial data reader, cross-scene solution…
-### "Part-time" Roles
-Mocap operator
-Layout Artist
+
+ - Lightmap Switcher
+ - Facial data to animation clip
+ - Multi-scene edit solution
