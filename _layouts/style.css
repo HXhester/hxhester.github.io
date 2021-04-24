@@ -14,6 +14,8 @@
 }
 .portfolio-modal .modal-content img {
     max-width: 560px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
 }
 .portfolio-modal .modal-content p,
 .portfolio-modal .modal-content li,
