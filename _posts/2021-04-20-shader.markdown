@@ -1,0 +1,18 @@
+---
+layout: default
+modal-id: 5
+date: 2014-07-18
+img: Dissolve_T.png
+alt: image-alt
+project-date: 
+client: 
+category: shader
+caption: Dissolve and Dither
+description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+---
+### Dissolve and Dither
+Dissolve with direction.
+{% include video.html id="iDAkbZuSP5c" title="Dissolve" %}
+Cheap semi-transparent silhouette effect with correct sorting.
+{% include video.html id="TNzL5DdqnT8" title="Dither" %}
+

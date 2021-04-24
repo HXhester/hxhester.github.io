@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-18
+img: ModelVariant_T.png
+alt: image-alt
+project-date: 
+client: 
+category: shader
+caption: Model Variants Shader
+description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+---
+### Model Variants Shader
+Change the appearances of the object without painting another set of textures.
+{% include video.html id="g6jvVLKkgio" title="Model Variants" %}

@@ -1,9 +1,32 @@
-# Starter kit for [Alembic](https://alembic.darn.es/)
+Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
+=========================
 
-This is a very simple starting point if you wish to use Alembic [as a Jekyll theme gem](https://alembic.darn.es/#as-a-jekyll-theme) or as a [GitHub Pages remote theme](https://github.com/daviddarnes/alembic-kit/tree/remote-theme) (see `remote-theme` branch).
+Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
+## How to use
+ - Place a image in `/img/portfolio/`
+ - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
+ - Create posts to display your projects. Use the follow as an example:
+```txt
+---
+layout: default
+modal-id: 1
+date: 2020-01-18
+img: cabin.png
+alt: image-alt
+project-date: January 2020
+client: The Client
+category: Web Development
+description: The description of the project
 
-or
+---
+```
 
-**[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
+
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+
+---------
+For more details, read the [documentation](http://jekyllrb.com/)

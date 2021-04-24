@@ -1,0 +1,49 @@
+{% include css/bootstrap.min.css %}
+{% include css/main.css %}
+.img-responsive {
+    width: 256px;
+}
+#portfolio .portfolio-item .portfolio-link img{
+    margin: 0 auto;
+    width: 256px;
+    height: 185px;
+}
+.portfolio-modal .modal-content .figure:first-of-type img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.portfolio-modal .modal-content img {
+    max-width: 560px;
+}
+.portfolio-modal .modal-content p,
+.portfolio-modal .modal-content li,
+.portfolio-modal .modal-content h3,
+.portfolio-modal .modal-content h4,
+.portfolio-modal .modal-content h5 {
+    text-align: left;
+}
+.filterButtons {
+    padding-bottom: 30px;
+}
+.category-btn.category-btn-selected {
+    border: 1px solid #2c3e50;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.category-btn {
+    border: 1px solid #2c3e50;
+    background-color: #fff;
+    color: #2c3e50;
+}
+.category-btn:hover {
+    border: 1px solid #2c3e50;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.portfolio-modal .modal-content figcaption {
+    margin-top: -20px;
+}
+
+.portfolio-modal .modal-content li{
+    font-size: 20px;
+}

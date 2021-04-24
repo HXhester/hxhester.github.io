@@ -1,0 +1,24 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: RainDemo.png
+alt: image-alt
+project-date: 
+client: 
+category: shader
+caption: Wet Floor and Ripple
+description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+---
+### Wet Floor and Ripple
+Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+{% include video.html id="6tQXZedHwtU" title="Wet Floor and Ripple Shader"%}
+
+Out of interest in cinematics, I combined all weather effects we have done, and created a short film to as a showcase of the weather system.
+{% include video.html id="2-Ol9GU7UFE" title="Rainy Day Demo"%}
+
+&nbsp;
+
+**References:**  
+[https://seblagarde.wordpress.com/2012/12/10/observe-rainy-world/](https://seblagarde.wordpress.com/2012/12/10/observe-rainy-world/)
+

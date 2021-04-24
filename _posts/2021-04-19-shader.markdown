@@ -1,0 +1,21 @@
+---
+layout: default
+modal-id: 6
+date: 2014-07-18
+img: HDRPToon_T.png
+alt: image-alt
+project-date: 
+client: 
+category: shader
+caption: HDRP Toon Shader
+description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+---
+### HDRP Toon Shader
+To make high quality cutscenes, we changed the pipeline from URP to HDRP. I was responsible for implementing character shader in HDRP based on URP character shader.
+An HDRP Custom Pass was also made for high-fidelity hair shadow.
+{% include figure.html image="https://hxhester.github.io/assets/HDRP_Toon_Shader.png" caption="Toon Shader Material Inspector" width="550" height="1100" %}
+
+&nbsp;
+
+**Reference:**  
+ [https://github.com/Jason-Ma-233/JasonMaToonRenderPipeline](https://github.com/Jason-Ma-233/JasonMaToonRenderPipeline)

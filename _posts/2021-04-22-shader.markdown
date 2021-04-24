@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-18
+img: FakeInterior_T.png
+alt: image-alt
+project-date: 
+client: 
+category: shader
+caption: Fake Interior Shader
+description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+---
+### Fake Interior Shader
+Fake Interior Shader can save performance by only drawing the window without drawing the full interior. 
+{% include video.html id="JlYuZ4J2CsE" title="Scene Transition - Enter" %}
+
+&nbsp;
+
+**References:**  
+[https://zhuanlan.zhihu.com/p/159439811](https://zhuanlan.zhihu.com/p/159439811)

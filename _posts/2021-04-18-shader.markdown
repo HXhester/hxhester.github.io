@@ -1,0 +1,17 @@
+---
+layout: default
+modal-id: 7
+date: 2014-07-18
+img: Maya_T.png
+alt: image-alt
+project-date: 
+client: 
+category: shader
+caption: Substance Painter and Maya Shader
+description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+---
+### Substance Painter and Maya Shader
+To keep consistency between the render results in Unity and DCC software, both scene and character shaders were re-written in DCC software. Work environment was also configured to match Unity.
+{% include figure.html image="https://hxhester.github.io/assets/MayaShader.jpg" caption="Maya Shader" width="460" height="915" %}
+
+{% include figure.html image="https://hxhester.github.io/assets/SPShader.jpg" caption="SP Shader" width="460" height="655" %}

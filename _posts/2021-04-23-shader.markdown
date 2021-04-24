@@ -1,0 +1,28 @@
+---
+layout: default
+modal-id: 2
+date: 2014-07-18
+img: SceneTransition_T.png
+alt: image-alt
+project-date: 
+client: 
+category: shader
+caption: Scene Transition Effect
+description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
+---
+### Scene Transition Effect
+Scene Transition Effect is a complex effect composed of 5 parts:
+1. Outline shader(Inverted Hull method + Postprocessing method)
+2. Outline on occlusion
+3. Power shield effect
+4. Postprocessing effect: glitch + chromatic splitting
+5. URP render feature
+{% include video.html id="SwvBseshn8g" title="Scene Transition - Enter" %}
+{% include video.html id="rTkVtJ5F22M" title="Scene Transition - Leave" %}
+
+&nbsp;
+
+**References:**  
+[https://roystan.net/articles/outline-shader.html](https://roystan.net/articles/outline-shader.html)
+[https://alexanderameye.github.io/outlineshader](https://alexanderameye.github.io/outlineshader)
+[https://github.com/yahiaetman/URPCustomPostProcessingStack](https://github.com/yahiaetman/URPCustomPostProcessingStack)

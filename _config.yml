@@ -1,74 +1,72 @@
-# Set theme
-remote_theme: daviddarnes/alembic@main
-
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
-- jekyll-remote-theme
-
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
-title: 'Hester'
-description: 'heihei'
+title: Xu Han
+email: hesterhx@gmail.com
+url: https://hxhester.github.io/
+description: "Xu Han - Technical Artist Portfolio Website"
+keywords: "Technical Artist, Portfolio"
+skills: "Technical Artist - Rendering Engineer - Quick Learner"
+meta_author: Xu Han
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+excerpt_separator: <!--newline-->
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Xu Han
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
 permalink: pretty
-logo: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fassets.openstudy.com%2Fupdates%2Fattachments%2F55299d4ae4b05b03ec899d31-geerky42-1428792637529-pokemon_132___ditto_by_bellygird362gqa.png&refer=http%3A%2F%2Fassets.openstudy.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1621662130&t=f3d28ec2c7c3f444dcecde5ba007fc45"
 
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
-
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
-
-# Collection settings
+#for posts
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
-      layout: post # Set the default layout for posts
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page # Set the default layout for pages
-
-mardown: kramdown
+      permalink: ""
