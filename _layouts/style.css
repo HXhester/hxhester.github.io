@@ -8,6 +8,12 @@
     width: 256px;
     height: 185px;
 }
+#portfolio .portfolio-item {
+    text-align: center;
+}
+#portfolio .portfolio-item .portfolio-link {
+    display: inline-block;
+}
 .portfolio-modal .modal-content .figure:first-of-type img {
     max-width: 100%;
     margin: 0 auto;
@@ -36,6 +42,7 @@
     border: 1px solid #2c3e50;
     background-color: #fff;
     color: #2c3e50;
+    margin-bottom: 5px;
 }
 .category-btn:hover {
     border: 1px solid #2c3e50;
@@ -49,3 +56,36 @@
 .portfolio-modal .modal-content li{
     font-size: 20px;
 }
+.video iframe {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {  
+    .portfolio-modal .modal-content img {
+        max-width: 100%;
+    }
+} 
+
+@media only screen and (max-width: 400px) {  
+    .video iframe {
+        height: 200px;
+    }
+    a {
+        word-break: break-all;
+    }
+} 
+
+@media only screen and (max-width: 400px) {  
+    .video iframe {
+        height: 200px;
+    }
+    a {
+        word-break: break-all;
+    }
+    .portfolio-modal .close-modal {
+        top: 25px;
+        right: 60px;
+        width: 25px;
+        height: 25px;
+    }
+} 
