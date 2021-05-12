@@ -15,6 +15,10 @@ Fixi in Playland is an animated series encouraging viewers from ages 5 to 8 to g
 {% include video.html id="maA_-J6DKJw" title="Fixi in Playland S2 Trailer" %}
 **Watch Fixi at Viaplay**: [https://viaplay.se/barn/fixi-i-playland](https://viaplay.se/barn/fixi-i-playland)
 
+The project was also written into a real-time filmmaking case study by Unity [https://unity.com/case-study/nordic-entertainment](https://unity.com/case-study/nordic-entertainment). 
+
+{% include figure.html image="https://hxhester.github.io/assets/FixiCaseStudy.png" caption="Fixi in Playland Unity Case Study" %}
+
 ### Preview + Production platform
 Preview + Production platform is used on set. With this platform, the directors and the actors are able to see the real-time rendering results.
 
