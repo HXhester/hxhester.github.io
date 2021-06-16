@@ -47,8 +47,3 @@ I was the Product Owner and responsible for designing and developing the app.
  - Lightmap Switcher
  - Facial data to animation clip
  - Multi-scene edit solution
-
-### BTS
-
-A BTS snippet could show many aspects of the production pipeline of Fixi in Playland.
-{% include video.html id="WTYyE4ZG5Y8" title="Fixi in Playland BTS" %}
