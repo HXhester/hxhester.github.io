@@ -482,3 +482,6 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+#portfolio .portfolio-item .portfolio-link img {
+    object-fit: cover;
+}
