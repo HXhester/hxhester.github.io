@@ -12,13 +12,21 @@ description: Take advantages of PBR, change the floor appearances from dry to we
 ---
 ### Scene Transition Effect
 Scene Transition Effect is a complex effect composed of 5 parts:
-1. Outline shader(Inverted Hull method + Postprocessing method)
-2. Outline on occlusion
-3. Power shield effect
+1. Outline shader (Postprocessing method,  read from DepthNormal buffer)
+2. Intersection effect
+3. Invert projection effect
 4. Postprocessing effect: glitch + chromatic splitting
-5. URP render feature
-{% include video.html id="SwvBseshn8g" title="Scene Transition - Enter" %}
-{% include video.html id="rTkVtJ5F22M" title="Scene Transition - Leave" %}
+5. URP custom render feature
+6. Custom timeline track for animating post processing effect
+{% include video.html id="RJnnd8BzvV8" title="Scene Transition" %}
+<!-- {% include video.html id="rTkVtJ5F22M" title="Scene Transition - Leave" %} -->
+
+**Software Used:**
+Unity, Photoshop
+
+{% include figure.html image="https://hxhester.github.io/assets/ST_RendererFeature.png" caption="Custom Renderer Feature" %}
+{% include figure.html image="https://hxhester.github.io/assets/ST_OutlineShader.png" caption="Outline Shader" %}
+{% include figure.html image="https://hxhester.github.io/assets/ST_Timeline.png" caption="Timeline" %}
 
 &nbsp;
 
@@ -26,3 +34,5 @@ Scene Transition Effect is a complex effect composed of 5 parts:
 [https://roystan.net/articles/outline-shader.html](https://roystan.net/articles/outline-shader.html)
 [https://alexanderameye.github.io/outlineshader](https://alexanderameye.github.io/outlineshader)
 [https://github.com/yahiaetman/URPCustomPostProcessingStack](https://github.com/yahiaetman/URPCustomPostProcessingStack)
+[https://assetstore.unity.com/packages/3d/characters/robots/robot-sphere-136226](https://assetstore.unity.com/packages/3d/characters/robots/robot-sphere-136226)
+[https://github.com/keijiro/DepthInverseProjection](https://github.com/keijiro/DepthInverseProjection)
