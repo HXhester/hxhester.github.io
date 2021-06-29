@@ -11,7 +11,7 @@ caption: Scene Transition Effect
 description: Take advantages of PBR, change the floor appearances from dry to wet, to water puddle with ripples.
 ---
 ### Scene Transition Effect
-Scene Transition Effect is a complex effect composed of 5 parts:
+Scene Transition Effect is a complex effect composed of 6 parts:
 1. Outline shader (Postprocessing method,  read from DepthNormal buffer)
 2. Intersection effect
 3. Invert projection effect
